@@ -30,7 +30,7 @@ class Program
 
         static int PromptUserNumber()
         {
-            Console.Write("Enter your favorite number");
+            Console.Write("Enter your favorite number: ");
             string n = Console.ReadLine();
             int favoriteNumber = int.Parse(n);
 
